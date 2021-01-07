@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/build/tailwind.css">
+    <link rel="shortcut icon" href="/public/img/download.png" type="image/x-icon">
+    <title>YouTube</title>
+</head>
+
+<body>
+    <header class="border-b border-gray-200 grid grid-cols-5 ">
+        <div class="text-sm md:text-xl col-span-1 ">
+            <div id="youtube" class="flex m-4 items-center ">
+                <div class="cursor-pointer " id="menu_bar ">
+                    <svg class="w-5 h-5 mr-6 " fill="none " stroke="currentColor " viewBox="0 0 24 24 " xmlns="http://www.w3.org/2000/svg "><path stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " d="M4 6h16M4 12h16M4 18h16 "></path></svg>
+                </div>
+                <h2 class="flex justify-center items-center ">
+                    <svg class="w-7 h-7 text-red-500 " focusable="false " data-prefix="fab " data-icon="youtube " class="svg-inline--fa fa-youtube fa-w-18 " role="img " xmlns="http://www.w3.org/2000/svg " viewBox="0 0 576 512 "><path fill="currentColor
+        " d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284
+        47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z "></path></svg>
+                    <a class="font-bold tracking-tighter" href="/ ">YouTube</a><sup class="text-sm text-gray-500 ">BD</sup>
+                </h2>
+            </div>
+        </div>
+        <div class="flex justify-center items-center col-span-3 mx-4 ">
+            <svg id="back " class="w-8 h-8 pr-2 hidden text-gray-600 " fill="none " stroke="currentColor " viewBox="0 0 24 24 " xmlns="http://www.w3.org/2000/svg "><path stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " d="M7 16l-4-4m0
+        0l4-4m-4 4h18 "></path></svg>
+            <input id="input " class="lg:w-full h-9 border-2 hidden md:block border-gray-300 px-4 " type="text " placeholder="Search ">
+            <button class="w-16 h-9 hidden md:block rounded-r border-2 border-l-0 border-gray-300 bg-gray-100 ">
+                    <svg class="w-4 h-4 text-gray-500 ml-4 " fill="none " stroke="currentColor " viewBox="0 0 24 24 " xmlns="http://www.w3.org/2000/svg "><path stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " d="M21 21l-6-6m2-5a7 7
+        0 11-14 0 7 7 0 0114 0z "></path></svg>
+            </button>
+            <svg id="search " class="w-4 h-4 block md:hidden text-gray-500 ml-4 " fill="none " stroke="currentColor " viewBox="0 0 24 24 " xmlns="http://www.w3.org/2000/svg "><path stroke-linecap="round " stroke-linejoin="round " stroke-width="2
+        " d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z "></path></svg>
+            <svg class="w-5 h-5 ml-4 text-gray-600 " fill="none " stroke="currentColor " viewBox="0 0 24 24 " xmlns="http://www.w3.org/2000/svg "><path stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " d="M19 11a7 7 0 01-7 7m0 0a7 7
+        0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z "></path></svg>
+        </div>
+        <div class="col-span-1 ">
+            <ul class="flex justify-center items-center ">
+                <li class="p-3 ">
+                    <a href="# ">
+                        <svg class="w-5 h-5 text-gray-600 " aria-hidden="true " focusable="false " data-prefix="fas " data-icon="plus-square " class="svg-inline--fa fa-plus-square fa-w-14 " role="img " xmlns="http://www.w3.org/2000/svg " viewBox="0
+        0 448 512 "><path fill="currentColor " d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-32 252c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92H92c-6.6 0-12-5.4-12-12v-56c0-6.6
+        5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z "></path></svg>
+                    </a>
+                </li>
+                <li class="p-3 ">
+                    <a href="# ">
+                        <svg class="w-5 h-5 text-gray-600 " aria-hidden="true " focusable="false " data-prefix="fas " data-icon="th " class="svg-inline--fa fa-th fa-w-16 " role="img " xmlns="http://www.w3.org/2000/svg " viewBox="0 0 512 512
+        "><path fill="currentColor " d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24
+        24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0
+        13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0
+        24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255
+        0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z "></path></svg>
+                    </a>
+                </li>
+                <li class="p-3 ">
+                    <a href="# ">
+                        <svg class="w-5 h-5 text-gray-600 " fill="currentColor " viewBox="0 0 20 20 " xmlns="http://www.w3.org/2000/svg "><path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3
+        3 0 01-3-3h6a3 3 0 01-3 3z "></path></svg>
+                    </a>
+                </li>
+                <li class="p-3 ">
+                    <a href="https://myaccount.google.com/u/0/?utm_source=YouTubeWeb&tab=rk&utm_medium=act&tab=rk&hl=en ">
+                        <img class="h-8 w-8 rounded-full " src="/public/img/_MG_0064-01.jpeg " alt=" ">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="grid grid-cols-6 ">
+        <div class="col-span-1 hidden md:block " id="menu_list ">
+            <ul class="mt-6 border-b border-gray-200 text-sm ">
+                <li class="my-4 mx-4 ">
+                    <a class="text-gray-700 font-bold lg:flex " href="# ">
+                        <svg class="w-5 h-6 text-red-500 mr-6 " fill="currentColor " viewBox="0 0 20 20 " xmlns="http://www.w3.org/2000/svg "><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1
+        1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z "></path></svg>
+                        <span class="md:text-xs ">Home</span>
+                    </a>
+                </li>
+                <li class="my-4 mx-4 ">
+                    <a class="text-gray-700 lg:flex " href="# ">
+                        <svg class="w-5 h-6 text-gray-600 mr-6 " fill="currentColor " viewBox="0 0 20 20 " xmlns="http://www.w3.org/2000/svg "><path fill-rule="evenodd " d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57
+        1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12
+        15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z " clip-rule="evenodd "></path></svg>
+                        <span class="md:text-xs ">Trending</span>
+                    </a>
+                </li>
+                <li class="my-4 mx-4 ">
+                    <a class="text-gray-700 lg:flex " href="# ">
+                        <svg class="w-5 h-6 text-gray-600 mr-6 " fill="currentColor " viewBox="0 0 20 20 " xmlns="http://www.w3.org/2000/svg "><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2
+        2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z "></path></svg>
+                        <span class="md:text-xs ">Subscriptions</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="mt-6 border-b border-gray-200 text-sm ">
+                <li class="my-4 mx-4 ">
+                    <a class="text-gray-700 lg:flex " href="# ">
+                        <svg class="w-5 h-6 text-gray-600 mr-6 " fill="currentColor " viewBox="0 0 20 20 " xmlns="http://www.w3.org/2000/svg "><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1
+        1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z "></path></svg>
+                        <span class="md:text-xs ">Library</span>
+                    </a>
+                </li>
+                <li class="my-4 mx-4 ">
+                    <a class="text-gray-700 lg:flex " href="# ">
+                        <svg class="w-5 h-6 text-gray-600 mr-6 " aria-hidden="true " focusable="false " data-prefix="fas " data-icon="history " class="svg-inline--fa fa-history fa-w-16 " role="img " xmlns="http://www.w3.org/2000/svg " viewBox="0 0 512
+        512 "><path fill="currentColor " d="M504 255.531c.253 136.64-111.18 248.372-247.82 248.468-59.015.042-113.223-20.53-155.822-54.911-11.077-8.94-11.905-25.541-1.839-35.607l11.267-11.267c8.609-8.609 22.353-9.551 31.891-1.984C173.062 425.135 212.781 440
+        256 440c101.705 0 184-82.311 184-184 0-101.705-82.311-184-184-184-48.814 0-93.149 18.969-126.068 49.932l50.754 50.754c10.08 10.08 2.941 27.314-11.313 27.314H24c-8.837 0-16-7.163-16-16V38.627c0-14.254 17.234-21.393 27.314-11.314l49.372 49.372C129.209
+        34.136 189.552 8 256 8c136.81 0 247.747 110.78 248 247.531zm-180.912 78.784l9.823-12.63c8.138-10.463 6.253-25.542-4.21-33.679L288 256.349V152c0-13.255-10.745-24-24-24h-16c-13.255 0-24 10.745-24 24v135.651l65.409 50.874c10.463 8.137 25.541 6.253 33.679-4.21z "></path></svg>
+                        <span class="md:text-xs ">History</span>
+                    </a>
+                </li>
+                <li class="my-4 mx-4 ">
+                    <a class="text-gray-700 lg:flex " href="# ">
+                        <svg class="w-5 h-6 mr-6 " fill="currentColor " viewBox="0 0 20 20 " xmlns="http://www.w3.org/2000/svg "><path fill-rule="evenodd " d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11
+        9.586V6z " clip-rule="evenodd "></path></svg>
+                        <span class="md:text-xs ">Watch Later</span>
+                    </a>
+                </li>
+                <li class="my-4 mx-4 ">
+                    <a class="text-gray-700 lg:flex " href="# ">
+                        <svg class="w-5 h-6 mr-6 " fill="currentColor " viewBox="0 0 20 20 " xmlns="http://www.w3.org/2000/svg "><path d="M2 10.5a1.5 1.5 0 113 0v6a1.5 1.5 0 01-3 0v-6zM6 10.333v5.43a2 2 0 001.106 1.79l.05.025A4 4 0 008.943 18h5.416a2
+        2 0 001.962-1.608l1.2-6A2 2 0 0015.56 8H12V4a2 2 0 00-2-2 1 1 0 00-1 1v.667a4 4 0 01-.8 2.4L6.8 7.933a4 4 0 00-.8 2.4z "></path></svg>
+                        <span class="md:text-xs ">Liked Videos</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-span-5 ">
+            <div class="py-2 pl-3 border-b border-gray-200 ">
+                <ul class="flex text-xs md:text-sm ">
+                    <li class="rounded-full px-2 m-2 border-2 border-gray-200 bg-gray-500 text-white ">
+                        <a href="# ">All</a>
+                    </li>
+                    <li class="rounded-full px-2 m-2 border-2 border-gray-200 bg-gray-100 ">
+                        <a href="# ">CSS</a>
+                    </li>
+                    <li class="rounded-full px-2 m-2 border-2 border-gray-200 bg-gray-100 ">
+                        <a href="# ">Turkish TV Darama</a>
+                    </li>
+                    <li class="rounded-full px-2 m-2 border-2 border-gray-200 bg-gray-100 ">
+                        <a href="# ">Laravel</a>
+                    </li>
+                    <li class="rounded-full px-2 m-2 border-2 border-gray-200 bg-gray-100 ">
+                        <a href="# ">Natok</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-gray-100 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-10 col-span-5 overflow-scroll">
+                <!-- --------------------start card------------------------ -->
+                <div class="bg-white w-64 h-44 m-4 ">
+                    <img class="w-full h-32 object-cover " src="/public/img/istockphoto-1141423277-170667a.jpg " alt=" ">
+                    <div class="text-sm ">
+                        <span class="font-bold "> Work Yourself</span>
+                        <span class="block ">Travercy Media . 4 months ago</span>
+                    </div>
+                </div>
+                <div class="bg-white overflow-hidden w-72 h-44 m-4 ">
+                    <img class="w-full h-32 object-cover " src="/public/img/istockphoto-1212386186-170667a.jpg " alt=" ">
+                    <div class="text-sm ">
+                        <span class="font-bold "> Work Yourself</span>
+                        <span class="block ">Travercy Media . 4 months ago</span>
+                    </div>
+                </div>
+                <div class="bg-white overflow-hidden w-72 h-44 m-4 ">
+                    <img class="w-full h-32 object-cover " src="/public/img/istockphoto-1222374833-170667a.jpg " alt=" ">
+                    <div class="text-sm ">
+                        <span class="font-bold "> Work Yourself</span>
+                        <span class="block ">Travercy Media . 4 months ago</span>
+                    </div>
+                </div>
+                <div class="bg-white overflow-hidden w-72 h-44 m-4 ">
+                    <img class="w-full h-32 object-cover " src="/public/img/istockphoto-458640785-170667a.jpg " alt=" ">
+                    <div class="text-sm ">
+                        <span class="font-bold "> Work Yourself</span>
+                        <span class="block ">Travercy Media . 4 months ago</span>
+                    </div>
+                </div>
+                <div class="bg-white overflow-hidden w-72 h-44 m-4 ">
+                    <img class="w-full h-32 object-cover " src="/public/img/istockphoto-497298355-170667a.jpg " alt=" ">
+                    <div class="text-sm ">
+                        <span class="font-bold "> Work Yourself</span>
+                        <span class="block ">Travercy Media . 4 months ago</span>
+                    </div>
+                </div>
+                <div class="bg-white overflow-hidden w-72 h-44 m-4 ">
+                    <img class="w-full h-32 object-cover " src="/public/img/istockphoto-1141423277-170667a.jpg " alt=" ">
+                    <div class="text-sm ">
+                        <span class="font-bold "> Work Yourself</span>
+                        <span class="block ">Travercy Media . 4 months ago</span>
+                    </div>
+                </div>
+                <div class="bg-white overflow-hidden w-72 h-44 m-4 ">
+                    <img class="w-full h-32 object-cover " src="/public/img/istockphoto-1212386186-170667a.jpg " alt=" ">
+                    <div class="text-sm ">
+                        <span class="font-bold "> Work Yourself</span>
+                        <span class="block ">Travercy Media . 4 months ago</span>
+                    </div>
+                </div>
+                <div class="bg-white overflow-hidden w-72 h-44 m-4 ">
+                    <img class="w-full h-32 object-cover " src="/public/img/istockphoto-1222374833-170667a.jpg " alt=" ">
+                    <div class="text-sm ">
+                        <span class="font-bold "> Work Yourself</span>
+                        <span class="block ">Travercy Media . 4 months ago</span>
+                    </div>
+                </div>
+                <!-- --------------------end card------------------------ -->
+            </div>
+        </div>
+    </main>
+    <script src="/public/index.js "></script>
+</body>
+
+</html>
